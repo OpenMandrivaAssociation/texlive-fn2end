@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/fn2end
+# catalog-date 2009-01-03 10:55:55 +0100
+# catalog-license pd
+# catalog-version 1.1
 Name:		texlive-fn2end
 Version:	1.1
 Release:	1
@@ -38,6 +44,7 @@ produce endnotes; and \theendnotes which prints them out.
 %{_texmfdistdir}/tex/latex/fn2end/fn2end.sty
 %doc %{_texmfdistdir}/doc/latex/fn2end/fn2end.pdf
 %doc %{_texmfdistdir}/doc/latex/fn2end/fn2end.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,3 +55,5 @@ produce endnotes; and \theendnotes which prints them out.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
