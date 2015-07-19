@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-fn2end
 Version:	1.1
-Release:	9
+Release:	10
 Summary:	Convert footnotes to endnotes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fn2end
