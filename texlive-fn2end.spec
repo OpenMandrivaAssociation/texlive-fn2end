@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Convert footnotes to endnotes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fn2end
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fn2end
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fn2end.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fn2end.doc.r%{version}.tar.xz
